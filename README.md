@@ -1,16 +1,62 @@
-# React Theme Switcher
+# 🌗 React Theme Switcher
 
-A simple React app that toggles between light and dark themes using React Context API.
+A simple React application that allows users to toggle between Light and Dark themes using the **useContext** hook for state management.
 
-## Features
+## 🚀 Live Demo
 
-- Light/Dark theme toggle
-- Theme state managed via React Context
-- Smooth CSS transitions
-- Responsive card UI
+[View Live Demo](https://ahdevworker03.github.io/Theme-Switcher/)
 
-## Usage
+## ✨ Features
+
+- 🌞 Light / 🌙 Dark mode toggle
+- 🔄 Smooth CSS transitions
+- 📦 State management with React Context API
+- ⚡ Built with Vite for fast development
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- CSS3
+- Context API
+
+## 📁 Project Structure
+
+```
+src/
+├── context/
+│   └── ThemeContext.jsx
+├── components/
+│   └── ThemeSwitcher.jsx
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## 🏃‍♂️ Run Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/ahdevworker03/Theme-Switcher.git
+
+# Navigate to project
+cd Theme-Switcher
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 🚀 Deploy to GitHub Pages
+
+```bash
+npm run deploy
 ```
